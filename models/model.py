@@ -8,9 +8,9 @@ from models.NodeFeatureEmbeddingLayer import NodeFeatureEmbeddingLayer
 from models.PositionEmbeddingLayer import PositionEncodingClusteringCoefficient, PositionEncodingBidirectionalLinks
 
 
-class BotDyGNN(nn.Module):
+class BotSTIP(nn.Module):
     def __init__(self, args):
-        super(BotDyGNN, self).__init__()
+        super(BotSTIP, self).__init__()
         self.args = args
         self.hidden_dim = args.hidden_dim
         self.structural_head_config = args.structural_head_config
