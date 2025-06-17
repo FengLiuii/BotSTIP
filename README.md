@@ -29,9 +29,10 @@ python main.py --dataset_name "Twibot-20" --batch_size 64 --hidden_dim 128 --wei
 ### Dataset Preparation
 The original datasets are available at [Twibot-20](https://github.com/BunsenFeng/TwiBot-20) and [Twibot-22](https://github.com/LuoUndergradXJTU/TwiBot-22). 
 
+## Citation
 
 If you find this work is helpful to your research, please consider citing our paper:
-
+```bibtex
 @article{liu2025past,
   title={From the past to the present: A social bot detection method based on spatio-temporal interactive perception},
   author={Liu, Feng and Ma, Rui},
