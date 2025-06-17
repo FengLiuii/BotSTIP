@@ -1,5 +1,7 @@
-# From the Past to the Present: A Social Bot Detection Method Based on Spatio-temporal Interactive Perception  --> BotSTIP
+# From the Past to the Present: A Social Bot Detection Method Based on Spatio-temporal Interactive Perception  --> BotSTIP   
 Implementation for the paper "From the Past to the Present: A Social Bot Detection Method Based on Spatio-temporal Interactive Perception".
+
+This work has been accepted by Knowledge-Based Systems, 2025
 
 BotSTIP is a framework that leverages the HyperGraph and Transformer for social bot detection.
 
@@ -27,3 +29,14 @@ python main.py --dataset_name "Twibot-20" --batch_size 64 --hidden_dim 128 --wei
 ### Dataset Preparation
 The original datasets are available at [Twibot-20](https://github.com/BunsenFeng/TwiBot-20) and [Twibot-22](https://github.com/LuoUndergradXJTU/TwiBot-22). 
 
+
+If you find this work is helpful to your research, please consider citing our paper:
+
+@article{liu2025past,
+  title={From the past to the present: A social bot detection method based on spatio-temporal interactive perception},
+  author={Liu, Feng and Ma, Rui},
+  journal={Knowledge-Based Systems},
+  pages={113712},
+  year={2025},
+  publisher={Elsevier}
+}
